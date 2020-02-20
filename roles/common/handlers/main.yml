@@ -1,0 +1,10 @@
+---
+
+- name: update apt cache
+  apt:
+    update_cache: yes
+
+- name: restart sshd
+  service:
+    name: sshd
+    state: restarted
