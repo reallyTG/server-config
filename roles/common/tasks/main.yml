@@ -46,4 +46,4 @@
     uid: "{{ item.uid }}"
     shell: "{{ item.shell | default('/bin/bash') }}"
   with_items:
-    - "{{ users }}"
+    - "{{ all_users | selectattr('username', 'in', users) | list }}"
