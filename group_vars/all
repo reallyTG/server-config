@@ -1,0 +1,39 @@
+ubuntu_mirror: http://cz.archive.ubuntu.com/ubuntu
+group_packages:
+  - build-essential
+  - cmake
+  - cloc
+  - curl
+  - git
+  - htop
+  - mc
+  - tmux
+  - wget
+  - zsh
+  
+all_users:
+  - username: krikava
+    uid: 1001
+    name: Filip Krikava
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAzwdcb4rxcvRppWy3FoGhmuaaMdYyP82bBsQJaDy5Yet1YnuD7j+SwGvovx4aJvjWtF/zY/IxmXT5CIjaNq28P47Ul2yYkLd2MZHO8CuxybakCaJ2B/1wliVuHBJQd5tV+pDUyDbW4gQEk/CI1PN0EJVrq2xfnvon6hLRNxBLG/IsljsBp+Ezuh+2QVkQ54jHpH33yKbEB13wiOEFvHEDRwnPvb1vIv1Hp2Q7r0J+uJi7GmW30sCrzRB8VOgHl1PvPaPzyoFAUFLTsh2OY4S6OjCgMZp5h+cbUiMBZLz/Gex18Wd9JjTpbHxfTwlU+CaABwJdutg1JtnYaUZBeXlI1w== krikava@filip-krikavas-macbook-pro.local"
+    shell: /bin/zsh
+  - username: aviral
+    uid: 1729
+    name: Aviral Goel
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCtZAI+CgHF2RfUGTTNhejQuZUlGIuYbA3tTnYpYloXpGl0ahttuVO8sNJ23apQn1eGenKzNOS/9Nxk3kBuLEBifv2libqtqUn16ixrsUttsoE/JJqXFPWZwH7c5fKq0Su1K+GMWWhBkzw5iwF7icqTQGsQdYheERE/LewKor4LMtgKZ/PvKAbAyNZadIwhiPGAeCJglBmIN8AirDDswR2bOhAwhN8MTYo5kOOmKRoNwKwDJYnjkXXO/M3C92ZN4JzACwp9OA96o7wwGwIqFeldWMURQa4fmHbSbhbhXw40l3bjIULai161C+nDcINnK2kpL5l4HnQ8lN41fJQC4P5T goel.aviral@gmail.com"
+    shell: /bin/zsh
+  - username: chakshugoyal97
+    uid: 1114
+    name: Chakshu Goyal
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDAyN8IK8q9e5ur0N+jdlSXb4SJiHbsQK6M6+fCFXc+D0EmwYaowIFNORPsQJQjXukqWR13oaKY6jlrQWebf1JFBAmo5Ur9JPi541RaJNIhTPMxGGP+17iyZ3ySomnnQET4uu3hnpBiMV0GLqfN+zSEJkLZK0zat4UO2iSE27IA9mJyTaeMiVfmpjG4RtZxOqX/xAEtr2ZyKwHStRT7KEQU7PaaN/f5BVsE/5lZ6jrzDp9fzBJLI6neWN8NIiRM9wGiKTZgAm6HSuP9WU8mzWQky7iwENE+s8JfdcLOCbAX8ytP877KE3luOTmPhOdGiZFosEqaPqInuc4BYyAu5s8L chakshugoyal97@gmail.com"
+    shell: /bin/bash
+  - username: artem
+    uid: 1799
+    name: Artem Pelenitsyn
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDipD0jpN1WxGOp+Ij5aqpLafM/6hCkf9ltaMpIlaBHxvNH2HRUbf5WOK8Vjb6lpHC0DZrsOgCc/FM96bGeIBmLZit9r1S6soAEHKIhHPjFhleBJo+T/b8F+Rm+afWMtUtVysQHe0u168g+NEovv0XzaDjBkZ+vOJUYL/u7YJbHDsLk1u+IzlIqCvelDYPrnJz49o849T3A3hfBlWx/q2WAsM8a6Wz2j+2ggzi8vo2RFQGzxswCq9KGO69XQjWgH5rw7d8I9jD2ccbj+mheVJuZLuYohTIkW8+i/93ReMvqate1LDIEpyQdm6OiyCVUn89BMmN186tNc+R5tvOaXFMT ulysses@ulysses-laptop-2"
+    shell: /bin/bash
+  - username: alexi
+    uid: 1115
+    name: Alexi Turcotte
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8Y9KDoHlMBllYh62c6XuO10263PtwptN+E2arlmwyVX2iBU/3h7JAYalP0eZCLNIvLfWbtUiD2uS9iy8RylJ6TQNCOjDltRllgiwBQ1ARwa6Nw8UnFOok87GLjrOJeCBRd80LhuM2uWiZMaGnrVdFxhjadiRnwLIdmVryI8avsEpUf65ir5SBr8c/HDCnj85IuWy0aMDB/6zy+qaSrsQRlANu/sgGDhsGghmqDPzCt6d0GHuK/zlVht6dkdwsCSSchFfxiHIU31cmQyZPbkQ6CZpGiOnalR7tW9GRdakyVeIr2HC/XXymuoOntKgoBzCnak17iqNkFyh89eN8gXuN Alexi@Caledfwlch-20.local"
+    shell: /bin/bash

@@ -1,0 +1,49 @@
+- name: set ubuntu mirror
+  when: ubuntu_mirror is defined
+  replace:
+    path: /etc/apt/sources.list
+    regexp: "http://archive.ubuntu.com/ubuntu"
+    replace: "{{ ubuntu_mirror }}"
+  notify:
+    - update apt cache
+    
+# installs the packages defined for the whole group and for the particular host as well
+- name: install packages (group)
+  when: group_packages is defined
+  apt:
+    state: present
+    name: "{{ group_packages }}"
+    update_cache: yes
+- name: install packages (host)
+  when: host_packages is defined
+  apt:
+    state: present
+    name: "{{ host_packages }}"
+    update_cache: yes
+
+# configures the SSH server, allows port forwarding and disabled logging in with passwords
+- name: setup sshd_config
+  lineinfile:
+    path: /etc/ssh/sshd_config
+    state: present
+    regexp: "{{ item.regexp }}"
+    line: "{{ item.line }}"
+  loop:
+    - { regexp: '^AllowAgentForwarding', line: 'AllowAgentForwarding yes' }
+    - { regexp: '^X11Forwarding', line: 'X11Forwarding yes' }
+    - { regexp: '^ChallengeResponseAuthentication', line: 'ChallengeResponseAuthentication no' }
+    - { regexp: '^PasswordAuthentication', line: 'PasswordAuthentication no' }
+    - { regexp: '^UsePAM', line: 'UsePAM no' }
+  notify:
+    - restart sshd
+
+# users management 
+- name: create users
+  when: users is defined
+  user:
+    name: "{{ item.username }}"
+    state: present
+    uid: "{{ item.uid }}"
+    shell: "{{ item.shell | default('/bin/bash') }}"
+  with_items:
+    - "{{ users }}"
