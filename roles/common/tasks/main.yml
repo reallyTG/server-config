@@ -47,3 +47,12 @@
     shell: "{{ item.shell | default('/bin/bash') }}"
   with_items:
     - "{{ all_users | selectattr('username', 'in', users) | list }}"
+
+- name: remove users
+  when: users is defined
+  user:
+    name: "{{ item.username }}"
+    state: absent
+  with_items:
+    - "{{ all_users | difference( all_users | selectattr('username', 'in', users) | list ) }}"
+    

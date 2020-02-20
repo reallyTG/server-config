@@ -16,4 +16,6 @@ all_users:
     uid: 1111
     name: Petr Maj
     ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC/VkBHEXy9C8s87PLrWfP8A78nnEoOIoIkLaoSOqEJ3wr7TUukowUHxEbNGq4Uc73xcNS07G5b378mk3ov/GE0PqxZwm1JgGBV20TlJKTgkhrj211NDhs01Sx6y+l0DeHB3saMbT51ieY8Ikl3fB3jlwunKP1ys4xj8SjDQ7enzNeKFdZui/TYH9cQvTyLMe1jSBRFQXETETT/OXEQ81gfhetGG//ZEZQExX5LTNqE4U/irl8L1iuo7NeXG55mg5Ce8bcsM5iv2od/VDaT7CcvpaCJVB/xIJRpjvnrkFSNJpJ513lDAS+AiHg6fDDe0pAiEgrZXl7llDXWZ2aqAMVL peta@orange"
+
+  - username: oli
     
