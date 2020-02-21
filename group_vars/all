@@ -12,10 +12,91 @@ group_packages:
   - zsh
   
 all_users:
+
+  - username: krikava
+    uid: 1001
+    name: Filip Krikava
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAzwdcb4rxcvRppWy3FoGhmuaaMdYyP82bBsQJaDy5Yet1YnuD7j+SwGvovx4aJvjWtF/zY/IxmXT5CIjaNq28P47Ul2yYkLd2MZHO8CuxybakCaJ2B/1wliVuHBJQd5tV+pDUyDbW4gQEk/CI1PN0EJVrq2xfnvon6hLRNxBLG/IsljsBp+Ezuh+2QVkQ54jHpH33yKbEB13wiOEFvHEDRwnPvb1vIv1Hp2Q7r0J+uJi7GmW30sCrzRB8VOgHl1PvPaPzyoFAUFLTsh2OY4S6OjCgMZp5h+cbUiMBZLz/Gex18Wd9JjTpbHxfTwlU+CaABwJdutg1JtnYaUZBeXlI1w== krikava@filip-krikavas-macbook-pro.local"
+    shell: /bin/zsh
+
+  - username: blorente
+    uid: 1002
+    name: Borja Lorente
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCcWVHY83SYDfmaINIkGJuxyaee0r3J9/Y8FRDEO+WbnMcCl4Ut7IZgJucTdDJ8hWUMHMKwoQUHfKejc+GZ4WofNH8wN/O9hhQD9PcdZHHXScvDZBjSCyMpEjmykkN5bTAJyFOstNNcOAatp2LigOz55Sc18GogmlUZFxZW3oTXhX4m7FdpsO5ebHg88vOYgv7aeJ7HIaAM81DU1sR5hG1oS7VxmfTbaiDc3LKYisvbLFZ+wLXBYRwn/99kkR8eJ64siMqPVNT08AOs03uoC3rg/qyONZ0EDilADm/MS1piJHJlyOqw8mf7sCGvIdhXKow86+vZAeiRL8T2gfSRyJr3 lorenbor@fit.cvut.cz"
+    shell: /bin/bash
+
+  - username: jan
+    uid: 1003
+    name: Jan Vitek
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCaLPK+wO6G3wOLQkJZthRlKM6sI+39XeR2eh6vf0yJJIbeadfU4gxdBq1hhNmLblydKpl/N7T1kCPmDFziC+FODU4nxeBVYIL9HISLFYG9a18URyPCB6mSg4A8/erHFs+UL9OmDYpj1azOnEmsS9bkcLjCB0IIIax3bBmKe1Ryrg7yBu5QJvZ9g4Jvm2j5B1WLiFhMqvgwAH/lNgKQ26ZGr4Fdn7P2tmN5TRzsYJ/ISCbciKGIfvjCHBh9Gk11xvjHXTGbZ8CzrfBLCM3N3xhWCCv0B/tMZmYsp3qmCZx8XYj/L0dgEwiR4ySez5uftArTimsN801ww8o8Pcj5sTKh janvite@yahoo.com"
+    shell: /bin/bash
+
+  - username: kondziu
+    name: Konrad Siek
+    ssh_key: "ssh-rsa
+AAAAB3NzaC1yc2EAAAADAQABAAACAQDf930xfeiq/YsVNyuQeXA8TRlccffEpNlYAWmjPErvajHphpJVl5nFGyMRDxUhyayo9IWEyfmMSiWkiM8qZQdrxqfax3cNA3W6QzhBGKOh3GLGr67EhvUSY5hdkUs7L7u6tmeF8iJIM2OGbBfhJJY5h4OvSo+XUkFlk1XwAkpgyszJpSD6TgCWgpTIiCJOHJDEhOoNKsnYH1xIRw2V4HRzFl7QpCfiiBxT0SbplgL9irhcz/+uWdAdjN1q6mBMnkg/eRcKmMbErpif8dbRrDfkVN5R4rzXV26wL/ZF+Y2RKf2iZnqqeoEztr32zrVIl0BSU8Ywwo7c7YGdalas2XlFBaxsgo/cSoT9iJtPIP8bx1AOoLjAvD8lyXb3lhqjsexY8LW58/+eYmCx9AYOdiTvupmProcqdxmdmUoDOedOAlZRkxkouil0BXDj6IZqU8GbgdjkiuY9WYesau/k6032Yk4owfsKbUfO0H4C/Enuitr82MrnnMkQAuKqyrbq/gRZWDeH4Ug/tn0ZHBN/zLvMsQgJ7GM78eBCSam5bN3VkKMi+qa11I4IMHhR0bzKMuwb1glgUxsfvBS4C0D4IvYGbXOllP5VS1JZHJFuaWF1/KfWt+y7VSDwG3U+3LgtwCZZqZ2DVzJ474mAa9F5HelKh07syHzx1HbfyqTKExlG0Q== siekkonr@fit.cvut.cz"
+
+  - username: heather
+    uid: 1005
+    name: Heather Miller
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCgEzCw1a14pPMqgK5U0aPIHKB/thnAep5VXMmdrqpUznUoNCsfyRrc9OMch/1usTy4OWsHBHGTzDSUGKrh8BUPJqlHlT8ypV/oxfGJ58fjzReCPSO/hYt0HTJR19CMCoUfk5IRC1Lq6DHdZ/tbGp6oyRMdp5qR9jNnf72u+UJkkPp6pFxGF7VdUii3F13bkg595mx3LTRUU6Cd6g6tiSFlTxiIrBYWmNXeg7gC/UgnIK3N7rlu2SprHD8e6oaPfeyIKbExyP9cSwuDfky6SXKixO6Kk8vRJqo5Q/BcjdQwd7CyuPj4IDi19LGcZ6x6NGwx0KKQ7K91Jg8kBPUEDCFlhMFPi7Y8b0D+il1ph8ED+87URV8KcYv+Fr72fn0BOaDvzUv8NV8F3BRh8XHoaL0oAXI1n4UZAfRfjs4mtQHR8ixtzJpZcMgFO+wj3nyVSsb2VCx/vKJqeP44+VvcJlMgFVsXfbmb5/s53axvoUwsj43Gecb6hXurywFVXg7e76DbJeA5guEbdmXDtKR9HZwYC/IhTfSwBvqS946beaG/eyl+9aVca/xWqXFGybs2aVlbt9MrN+Ae0CNTu0fpy9as/OEEmhGE/nVdog0qOIAA+RU+9n//vwCjbi0T63tbNVeHbDZtVJG34Xe+2O6jgIq/yOqxOokqW0QWcsqtVQXkVw== heather.miller@cs.cmu.edu"
+    shell: /bin/bash
+
+  - username: jecmejan
+    uid: 1006
+    name: Jan Jecmen
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC7dzCa1xk9vuoIjic6/lFYjFp153fg6uby6apEPySGNo6ppVCHa7RtbJ3acd3qhbzbVTCpFLdjo6MldczXNYUWKw6YnczcuKSsP6tzOk3FmK4TRfWMqJNh8OkqV7MMA6ltChWboiqpIk05nM9ninb2aDR75LRlQ7mUl+TJcLOJWAIhvQlm4riJUWv0gA+T8EkL9fR2Rc/EFqPtXhskxIAyN6F14zn0Yq4ljzXMTTjpVP2YDAKUm87FbL+IaaxxkWVB1MG3fucv1j4gfhsyHaAENBkX4FwF6whA66jw37APAU5L8VWZ8naXhlB3mt3FI8g93nNm015dU+8xTzWoLHx2wrCIVk2Lxsx/9IyKF8KozFDOhTBUhUgDpOcfW//DauIAHoQRPWZeNe04CoFY8vm1lAj1AgjNwbK9OaZyCLuazQ45fmPovEbg4FCyBZj2tsYSyGOJJxZ/bMPdkS5067zNoYV2FCv44vnhcA2/WRuRQZNhnG4XYo/Vw5evScHTmVlakmb7PSspOIseGme/2lQavgmGyq9LWyXOk1IrtNaUNDEyIBe+aeJf0uPqcClXt0QBH9+1GnO+sR1QaEFQw9098TcLmIPuuc8fD0Vw7qPhfUnIQrpz1HSQBIYGVGn3IMqDqeOpwbvjJjRpX6gjVC2vd2zR82+XFQHRnDmJj819uQ== jan.jecmen@gmail.com"
+    shell: /bin/bash
+
+  - username: jakob
+    name: Jakob Hain
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDO+9CtOxB2S54z1tPVAWd51Yh4dfFsJ8CbqgZgXybgNdpx3Jn0jrk0rbAPyJAC1b21PYO7CcXOTXQ8aYnqOFKHUCWnkrr11WQ6+KO2YSvQketGh3KYKJwMxK+BOq3PFxVbICpztsC9fpTmaVsup/pdgD0lncekB12o4RdgH42friR0mp8QiQRk1nh2T/dabXRvZ+tCqbsb6AD6gjglxa7nOirCmqVMzOxuNmzqFrGQ+QcZYB+UzivMIfUF2JpyNCizorErDwYqr5AYIKyg/cw2hmUZnKaLRPGVTbJrkddtKfsxQY7r7aXdNL3u7wtOwbal9LkQWyEZk1Ag4IevG1MlPg9OyYof5hFKcHCbYnMObGg3k+3elHS8919WU4kTgJzOflsaSyAWtmlLS+4d7frvt/jJTXSHG2V6GDNnkbP5/hWw1c+IjEMhYqkRQK1byt1+xvoi8wOgXSISCly/3e7hB4C0wXyZXXhonAdduhBHq1ZOnHaY6n7CiIK2JYwkQpL67p1Mixh1P44ZiVZIEWbIV+wHesh1gO/Jm8NJri4jk31KHARhl/dbKZg/i2zh9d1jw6q7u+n77bvPUtseZzqKB6Isblns6Et6zLpsRLOED9GLiC1GlUtms6HUaivPBvGcO+3cKIU+WOIONoL5z2rlQKehvi+kY6mS2sV90dg3ow== jakob@prl1.ele.fit.cvut.cz"
+
+  - username: mhyee
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAtvtpcVYX3bpaWtdn5mM9I2Ht5C4E0DOJNiZYjqipII5yJJJmbQmSYCjKbyTn9btHC0BTESa5iOVn9r0FdmUlvxDsuqHKZl86F8RWqPkxNDIT4v8WgTcSWXmdiLWgf3lMMPR/m5o8IVT7VOjaagfbQ+bCeGu5L60OtyUxWMySGAIOs+lnWENhUYtUg6hXHa1VmaPOfheu2UA1SpkTmFEkDERr3iceEV3LCHBL+gU2wxxFoZdcdtCgatsHuKKuXAJyR1oF007cB8Y9tIef+yccZItycjq3/1DDPwurd88tOC2BumrRY8cB3MIY+v/1xUmb+zfvZCuQEMmAPUSyXNiiww== mh@mhyee.com"
+
+  - username: lukegeeson
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC6DeUo2x7UqhbdUmewhxe0Yl4GFakC9xh9cW2c9o2JX3LdnQw6qbRjokx2GOrki0ZdOFhwpB395lvkpjd5OYOCS0vTmkVE+rJ74nIjw3yHFxLcaSj621VHhYujdIdExpKNOmOID1DIVaBQprIbkjqC7/ybmBXNRp9RMV4TKJkmyaniVqPEyojpoxIwvAV8mcuQve/5bHoqLwLaqcx6m6PgV/EOkjOMlEk/NCxxCmXcYDwr/8mmYJ/8gu5EO/jw5AiukLWONy1xyFjqJ1CJinkQZXBA47psoyrYSgVCmu0ix1RtPb/6NyVNa6kzNQ40IlnJZpW/sCYud86xGoXyNrt/ home@Lukes-MBP"
+
+
+  - username: oli
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC5ob1VzaYh87lsaUWZ/uW1uOvxYBZWOW2fH4eWOcPCNTqvAuj2oqFXyeL3wSI3hUilk4o/L6bgqUhImtRd4zgEv0Z1iiY/vo6E3ZxOEYnWzdHZ3zeiIwgdAiqYKplGy80A364CH9OZ0HDmkOmxAixPZmQjs9M+P64gAW0SzUM3FQRGgtWCVdhVxYPTHpFtU1j85NxykYMfBRDbjoIO8lX6Y+g64RLl7wHl7N79EXIvMBhB8qzpc0exXlJgZ44+qLqPGAXkWiTGoLCNU59jpY49glXv1GfQvZLzCE2PUclhHp203yH7bMZnC5utqA/6yy8N2i6ogf+vHXexgCGji2LZ0AumF/c7ixAxzRINCzIUu4WNq0PaOc8AyNgFccmOKUT0z6zz3O8FohsyfkeRi+lQa8wQc5DuuanY7MzfOJVzf/3yJnzL6sYRyDFlWEqY8H1IJ6M9pG1RKp7/z2ZiFg4Sd0swIMtB9Tj3gii2QesERp69nI3H95peSAYiJPuxw8duG7gsWs2X5A7VsxMqE2UkMpuPdMPPRcjKky0GbMrWw0KbwFdyhynANvT7ts/QnDPiYMTzWDAgGXn/fiOOm72bJByPXR1MOmfqyX/YbMBSwrWbh3ixWgc2ENp4QPYGDIGwnV02WQ/Ec87EVW8v2aGVXSlufgRLu5jQlAzqmPZNyw=="
+
   - username: peta
     uid: 1111
     name: Petr Maj
     ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC/VkBHEXy9C8s87PLrWfP8A78nnEoOIoIkLaoSOqEJ3wr7TUukowUHxEbNGq4Uc73xcNS07G5b378mk3ov/GE0PqxZwm1JgGBV20TlJKTgkhrj211NDhs01Sx6y+l0DeHB3saMbT51ieY8Ikl3fB3jlwunKP1ys4xj8SjDQ7enzNeKFdZui/TYH9cQvTyLMe1jSBRFQXETETT/OXEQ81gfhetGG//ZEZQExX5LTNqE4U/irl8L1iuo7NeXG55mg5Ce8bcsM5iv2od/VDaT7CcvpaCJVB/xIJRpjvnrkFSNJpJ513lDAS+AiHg6fDDe0pAiEgrZXl7llDXWZ2aqAMVL peta@orange"
 
-  - username: oli
+  - username: chakshugoyal97
+    uid: 1114
+    name: Chakshu Goyal
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDAyN8IK8q9e5ur0N+jdlSXb4SJiHbsQK6M6+fCFXc+D0EmwYaowIFNORPsQJQjXukqWR13oaKY6jlrQWebf1JFBAmo5Ur9JPi541RaJNIhTPMxGGP+17iyZ3ySomnnQET4uu3hnpBiMV0GLqfN+zSEJkLZK0zat4UO2iSE27IA9mJyTaeMiVfmpjG4RtZxOqX/xAEtr2ZyKwHStRT7KEQU7PaaN/f5BVsE/5lZ6jrzDp9fzBJLI6neWN8NIiRM9wGiKTZgAm6HSuP9WU8mzWQky7iwENE+s8JfdcLOCbAX8ytP877KE3luOTmPhOdGiZFosEqaPqInuc4BYyAu5s8L chakshugoyal97@gmail.com"
+    shell: /bin/bash
+
+  - username: alexi
+    uid: 1115
+    name: Alexi Turcotte
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8Y9KDoHlMBllYh62c6XuO10263PtwptN+E2arlmwyVX2iBU/3h7JAYalP0eZCLNIvLfWbtUiD2uS9iy8RylJ6TQNCOjDltRllgiwBQ1ARwa6Nw8UnFOok87GLjrOJeCBRd80LhuM2uWiZMaGnrVdFxhjadiRnwLIdmVryI8avsEpUf65ir5SBr8c/HDCnj85IuWy0aMDB/6zy+qaSrsQRlANu/sgGDhsGghmqDPzCt6d0GHuK/zlVht6dkdwsCSSchFfxiHIU31cmQyZPbkQ6CZpGiOnalR7tW9GRdakyVeIr2HC/XXymuoOntKgoBzCnak17iqNkFyh89eN8gXuN Alexi@Caledfwlch-20.local"
+    shell: /bin/bash
+
+  - username: aviral
+    uid: 1729
+    name: Aviral Goel
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCtZAI+CgHF2RfUGTTNhejQuZUlGIuYbA3tTnYpYloXpGl0ahttuVO8sNJ23apQn1eGenKzNOS/9Nxk3kBuLEBifv2libqtqUn16ixrsUttsoE/JJqXFPWZwH7c5fKq0Su1K+GMWWhBkzw5iwF7icqTQGsQdYheERE/LewKor4LMtgKZ/PvKAbAyNZadIwhiPGAeCJglBmIN8AirDDswR2bOhAwhN8MTYo5kOOmKRoNwKwDJYnjkXXO/M3C92ZN4JzACwp9OA96o7wwGwIqFeldWMURQa4fmHbSbhbhXw40l3bjIULai161C+nDcINnK2kpL5l4HnQ8lN41fJQC4P5T goel.aviral@gmail.com"
+    shell: /bin/zsh
+
+  - username: artem
+    uid: 1799
+    name: Artem Pelenitsyn
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDipD0jpN1WxGOp+Ij5aqpLafM/6hCkf9ltaMpIlaBHxvNH2HRUbf5WOK8Vjb6lpHC0DZrsOgCc/FM96bGeIBmLZit9r1S6soAEHKIhHPjFhleBJo+T/b8F+Rm+afWMtUtVysQHe0u168g+NEovv0XzaDjBkZ+vOJUYL/u7YJbHDsLk1u+IzlIqCvelDYPrnJz49o849T3A3hfBlWx/q2WAsM8a6Wz2j+2ggzi8vo2RFQGzxswCq9KGO69XQjWgH5rw7d8I9jD2ccbj+mheVJuZLuYohTIkW8+i/93ReMvqate1LDIEpyQdm6OiyCVUn89BMmN186tNc+R5tvOaXFMT ulysses@ulysses-laptop-2"
+    shell: /bin/bash
+
     
+
+  # no longer active -- these users are kept here so that the scripts remove them from servers
+
+  - username: hshabbir
+    name: Shabbir Hussain
+
+  - username: jcallaghan
+    name: Joseph Callaghan

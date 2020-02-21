@@ -1,7 +1,8 @@
-all:
-  children:
-    public:
-      hosts:
-        prl-gateway:
-          ansible_host: 10.38.5.94
+[all]
+prl-gateway               ansible_host=10.38.5.103
+rir-benchmarks-web        ansible_host=10.38.5.94
+
+[public]
+prl-gateway
+
 

@@ -14,12 +14,20 @@
     state: present
     name: "{{ group_packages }}"
     update_cache: yes
+    
 - name: install packages (host)
   when: host_packages is defined
   apt:
     state: present
     name: "{{ host_packages }}"
     update_cache: yes
+
+- name: add passwordless sudo
+  lineinfile:
+    path: /etc/sudoers
+    state: present
+    regexp: '^%adm\s'
+    line: '%adm ALL=(ALL) NOPASSWD: ALL'
 
 # configures the SSH server, allows port forwarding and disabled logging in with passwords
 - name: setup sshd_config
@@ -43,16 +51,44 @@
   user:
     name: "{{ item.username }}"
     state: present
-    uid: "{{ item.uid }}"
+    uid: "{{ item.uid | default(omit) }}"
     shell: "{{ item.shell | default('/bin/bash') }}"
   with_items:
     - "{{ all_users | selectattr('username', 'in', users) | list }}"
+
+- name: add authorization keys
+  when: users is defined
+  authorized_key:
+    user: "{{ item.username }}"
+    state: present
+    key: "{{ item.ssh_key }}"
+  with_items:
+    - "{{ all_users | selectattr('username', 'in', users) | list }}"
+
+- name: set administrator rights
+  when: users is defined
+  user:
+    name: "{{ item.username }}"
+    groups: adm
+    append: yes
+  with_items:
+    - "{{ all_users | selectattr('username', 'in', users) | selectattr('username', 'in', admin | default([])) | list }}"
+
+# now make sure that anyone who is not admin, but has an account on the server is not in the adm group
+# note that this errors during the execution if the user is already not in the group, but we don't care about it 
+- name: revoke administrator rights
+  when: users is defined
+  become: true
+  command: "gpasswd -d {{ item.username }} adm"
+  ignore_errors: true
+  with_items:
+    - "{{ (all_users | selectattr('username', 'in', users) | list) | difference(all_users | selectattr('username', 'in', admin | default([])) | list) }}"
 
 - name: remove users
   when: users is defined
   user:
     name: "{{ item.username }}"
     state: absent
+    remove: yes
   with_items:
     - "{{ all_users | difference( all_users | selectattr('username', 'in', users) | list ) }}"
-    
