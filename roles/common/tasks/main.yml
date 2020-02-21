@@ -41,7 +41,8 @@
     - { regexp: '^X11Forwarding', line: 'X11Forwarding yes' }
     - { regexp: '^ChallengeResponseAuthentication', line: 'ChallengeResponseAuthentication no' }
     - { regexp: '^PasswordAuthentication', line: 'PasswordAuthentication no' }
-    - { regexp: '^UsePAM', line: 'UsePAM no' }
+    - { regexp: '^PermitEmptyPasswords', line: 'PermitEmptyPasswords no' }
+    - { regexp: '^UsePAM', line: 'UsePAM yes' }
   notify:
     - restart sshd
 
@@ -51,6 +52,7 @@
   user:
     name: "{{ item.username }}"
     state: present
+    password_lock: yes
     uid: "{{ item.uid | default(omit) }}"
     shell: "{{ item.shell | default('/bin/bash') }}"
   with_items:

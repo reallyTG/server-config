@@ -1,5 +1,5 @@
 [all]
-prl-gateway               ansible_host=10.38.5.103
+prl-gateway               ansible_host=10.38.5.81
 rir-benchmarks-web        ansible_host=10.38.5.94
 
 [public]
