@@ -92,7 +92,19 @@ all_users:
   - username: charig
     name: Guido Chari
     ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDPFYCS9MRKh+n7+zFTo+nFrJ4yWoJ92UGuF/+DlAKqHJHC+oCn18J9WUvBK/MAZQmERe7Ej4y/gIPnHBQMoVXSNYcDhyh7iIWqru38bvh0OfRHsv9SpgoxMVpfTSiisEqXmrIvf0NuokjrBPgABe9eZx3pn31ZF9jTVRLw4MgdYI4lzvbbuzOMP5FwC2SqwMzpXppMBHpVj/9k4Qkxd4Q7QwEUCR8vIjB8P6WFNwru9LRhqnNLQq/Xf5TW07eAw3ZWt+FvNRFyStRfgeebBzQqfNTQdpRISd3dFG1iu3FMHHlrrQ88OfhjUbekpQEa7eOq59xZpTE28cN0q1W6sv3129xZbGxEkschfJStC549bZVTd17YOh18FQd6G+PdkEyUEQXZmk0mCvxsOZrV8cO2ODEL8QSeavIRB+gX+Sd1tL1V8T7v8QMx1zJ3LvnxfIHh1XfQVo6Q42EhTjEFRd3CLELasbPyHhJB8hHqhbk7FsHsNlxRlfUx7x1XukWVowe8JcWYkXbvUoJEbSFJXPVg77wSQ+UNjSpbDhMKkJUQaC/p63XKIULtBVGBCJQSOGgM/L0jAFBRWcQijTmbcHsVfG9mihxsMFcJK78fj4LdS3xgOHT4uu4RQEw1Zo/FPdKU0/YfHAZiJXyYbTksIEYXZaRpuPSmkTx0IjUROjodeQ== charig@gmail.com"
-    
+
+  # temporary users
+
+  # Tobias and Malin - on the gateway and on dejavuii
+
+  - username: stw
+    name: Tobias Wrigstadt
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCxerk8Ed13O34KF8O1T2BQA4MCms50nNBAjbHwhwoLregdHubUZnkOr/eDdWmRDpUESMIngiV2QbrsvJhyYIVNBLYkIRT9LqkASEKU6+xenRpqfPEz4qdgMdA+5bdG0ga5/qONJy+mo++NxhZjPhEIlpy4FaNOd71VMDjIIeIX8zjBdBABLaZg2F+m4g6KqtSlkKB8VqghQsTz4YS4ehbRcS1D2Eu/siA6VYjCxty3KwkRRr4RwMlOpcxjkH9w9VCHHlDpKqdn4chTij3JxOIkNZ7MPDwcWQ816+19fih3rAr+FRhQP1GVWG6h4x8MI6ovJg4ReYfLOW2Xudy/17SDYPKi4nwJuiJlDAsTrevt8NTaVb34NZ6xieFifBMgWEhu+NEe7vl7VjGdm5ZHKRnqg5uYmkvb6l9eqWh5HhC1oN+fED+6EGG4mNAKux0/l1/isi37Wo/20pRBt0sHEMh4/HaZ7GpZYvdrs9KNK6S1NT2OFsJN2cgqAwk3BExIfLCKP3oe/lNSjrDjBB7FMkMnFfgGnl0mSGmw39zoEDxE1EyiyyFz2aR7LDn3U+7uArC9d/f7muKaonuOfKMSQKM3UgAWmxYkHzYM9egYy8m4gPC4E9sO7abrl5edPLoJ9GChYDSTYObifgLPfszYJ4BQQkIRe+OjIrVle19BfgBXmQ== tobias.wrigstad@it.uu.se"
+
+  - username: maka4186
+    name: Malin Kallen
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCjAQyQU8Zttjn0gyDt5WeBjlUrsMoYndZk6Wz9+zhFWLgxHMxyGyo0ufaEFN7B6fMZuCM0c4xTIjvxIrIlHD/TJdt4OHtNfctvtYlURWxmZadlNEfsHSowp2iMRyXwh1pWdby3ANN31w43F6HtBZNqQBO5fh6c0kR/GWaUeAV7AWo5YxZloQ920zW7Wg0pdAZPxNx28cri4/7ReWf/ZsdFSDFB9dOlgiOwKHq/H9bI7V0Rol0NNiYIoiE1KbpsQO1rGAwUkLRIXiMjgyUdQSs3y6WrTcEUuhOGW/gRTbmA+j3wbvbRA36nTjUZz9YLeKhys9dZ14wrXgoUG8nsDUEL tragula 2017-01-05"
+
   # no longer active -- these users are kept here so that the scripts remove them from servers
 
   - username: hshabbir

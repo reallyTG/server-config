@@ -1,0 +1,10 @@
+users:
+  - peta
+  - kondziu
+  - stw
+  - maka4186
+admin:
+  - peta
+host-packages:
+  - cmake 
+  - gdb
