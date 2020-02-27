@@ -5,6 +5,10 @@ users:
   - maka4186
 admin:
   - peta
-host-packages:
+host_packages:
+  - csvtool
   - cmake 
   - gdb
+  - ant
+  - default-jdk
+  
