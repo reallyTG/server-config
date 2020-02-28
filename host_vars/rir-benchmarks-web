@@ -3,3 +3,6 @@ users:
   - jecmejan
 admin:
   - oli
+host_packages:
+  - apache2
+  
