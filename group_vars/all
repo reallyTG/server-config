@@ -93,6 +93,11 @@ all_users:
     name: Guido Chari
     ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDPFYCS9MRKh+n7+zFTo+nFrJ4yWoJ92UGuF/+DlAKqHJHC+oCn18J9WUvBK/MAZQmERe7Ej4y/gIPnHBQMoVXSNYcDhyh7iIWqru38bvh0OfRHsv9SpgoxMVpfTSiisEqXmrIvf0NuokjrBPgABe9eZx3pn31ZF9jTVRLw4MgdYI4lzvbbuzOMP5FwC2SqwMzpXppMBHpVj/9k4Qkxd4Q7QwEUCR8vIjB8P6WFNwru9LRhqnNLQq/Xf5TW07eAw3ZWt+FvNRFyStRfgeebBzQqfNTQdpRISd3dFG1iu3FMHHlrrQ88OfhjUbekpQEa7eOq59xZpTE28cN0q1W6sv3129xZbGxEkschfJStC549bZVTd17YOh18FQd6G+PdkEyUEQXZmk0mCvxsOZrV8cO2ODEL8QSeavIRB+gX+Sd1tL1V8T7v8QMx1zJ3LvnxfIHh1XfQVo6Q42EhTjEFRd3CLELasbPyHhJB8hHqhbk7FsHsNlxRlfUx7x1XukWVowe8JcWYkXbvUoJEbSFJXPVg77wSQ+UNjSpbDhMKkJUQaC/p63XKIULtBVGBCJQSOGgM/L0jAFBRWcQijTmbcHsVfG9mihxsMFcJK78fj4LdS3xgOHT4uu4RQEw1Zo/FPdKU0/YfHAZiJXyYbTksIEYXZaRpuPSmkTx0IjUROjodeQ== charig@gmail.com"
 
+  - username: bchung
+    name: Benjamin Chung
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAxomumPWAEIu0RS2dg5ZOqPCmJdatsFTAcFb2mjp3hOJJAMZr9ef/cZLd2xMunHaxmKWhdNn32IB+lAl+9oqvrTArFDQcNciyb4AHJCEXYU+LuvUn1fASg8fdSC9101vR2Ui5FiqPhmytnGPSq5ujnYqfHCVjXJW9xukzdZlUrznlyqnv8nWGw7Avd427nA4EkOlkhA/z23V5xW/s7RdknvsTxfpjHRGl1WKTds1kcGJbmtYSrQ/fVZVvHvd96QRPvjIodWTuNs7ybgU7jLoP6rT7KvK2tb7IqunUHfH8BwbhxzD6sfiTfy81N0GmNUtD7lq8iale1HBm47Q5wwo3ww== ckfinite@gmail.com"
+    shell: /bin/bash
+    
   # temporary users
 
   # Tobias and Malin - on the gateway and on dejavuii
