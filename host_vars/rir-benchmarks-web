@@ -3,6 +3,8 @@ users:
   - jecmejan
 admin:
   - oli
+root_login:
+  - oli
+  - peta
 host_packages:
   - apache2
-  

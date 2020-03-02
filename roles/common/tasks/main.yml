@@ -76,6 +76,15 @@
   with_items:
     - "{{ all_users | selectattr('username', 'in', users) | selectattr('username', 'in', admin | default([])) | list }}"
 
+- name: set root authorized keys
+  when: root_login is defined
+  authorized_key:
+    user: "root"
+    state: present
+    key: "{{ item.ssh_key }}"
+  with_items:
+    "{{ all_users | selectattr('username', 'in', root_login | default([])) | list }}"
+
 # now make sure that anyone who is not admin, but has an account on the server is not in the adm group
 # note that this errors during the execution if the user is already not in the group, but we don't care about it 
 - name: revoke administrator rights

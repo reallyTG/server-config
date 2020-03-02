@@ -12,4 +12,3 @@ host_packages:
   - gdb
   - ant
   - default-jdk
-  
