@@ -1,6 +1,9 @@
----
 - hosts: all
   become: true
   roles:
     - common
-    
+
+- hosts: rir-gitlab-runner
+  become: true
+  roles:
+    - gitlab_runner
