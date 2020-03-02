@@ -26,3 +26,7 @@ prl-gateway
 #[scala]
 #prl4
 
+[rvm]
+rir-benchmarks-web
+rir-gitlab-runner
+prl5
