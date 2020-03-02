@@ -9,11 +9,15 @@ dejavuii                  ansible_host=10.38.5.64
 #prl3                      ansible_host=10.200.14.53
 #prl4                      ansible_host=10.200.14.54
 #prl5                      ansible_host=10.200.14.25
+# these will be destroyed once we move to the new infrastructure fully
 prl1e                      ansible_host=10.200.14.124
-
 
 [public]
 prl-gateway
+
+#[metal]
+#prl3
+#prl4
 
 #[r]
 #prl3
