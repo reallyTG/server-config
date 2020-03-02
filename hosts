@@ -28,5 +28,6 @@ prl-gateway
 
 [rvm]
 rir-benchmarks-web
+rir-benchmarks
 rir-gitlab-runner
 prl5
