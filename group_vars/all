@@ -97,6 +97,11 @@ all_users:
     name: Alexander Kovalenko
     ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC4r9FwQlSbX4KKmeWi2C+L33haXS3Nwe+w9AionCp24doWkjE7Nw8jehim7yn4Bt4Zr/6m6GVUjtQBrLTiQKr6OWfbo4Z6bZbKOtx0wIPSs2PUTM9OP9nJP1Lnp+FjYoXk6PlzRTVAHV4uGDXtGedFeyZIP2NJ5CqmWnUN8hTSPl/USDfuU3bC9u+5qOGrEIuhy1virfHt1durJ9+7R+5cioNcuV3dBwvme6ubRix7GhG9I0mKmNwqby3X6whNxLgMv+Sk9UMdHsu7kRuynKRBAtVLtHM9beF5E67YNmCf2SFFuroqRoUHR6z2vGVP1Z7FMP+1w+Rnd8S9AC9MeIuH alex@Alexanders-MacBook-Pro.local"
 
+  - username: bchung
+    name: Benjamin Chung
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAxomumPWAEIu0RS2dg5ZOqPCmJdatsFTAcFb2mjp3hOJJAMZr9ef/cZLd2xMunHaxmKWhdNn32IB+lAl+9oqvrTArFDQcNciyb4AHJCEXYU+LuvUn1fASg8fdSC9101vR2Ui5FiqPhmytnGPSq5ujnYqfHCVjXJW9xukzdZlUrznlyqnv8nWGw7Avd427nA4EkOlkhA/z23V5xW/s7RdknvsTxfpjHRGl1WKTds1kcGJbmtYSrQ/fVZVvHvd96QRPvjIodWTuNs7ybgU7jLoP6rT7KvK2tb7IqunUHfH8BwbhxzD6sfiTfy81N0GmNUtD7lq8iale1HBm47Q5wwo3ww== ckfinite@gmail.com"
+    shell: /bin/bash
+    
   # temporary users
 
   # Tobias and Malin - on the gateway and on dejavuii
