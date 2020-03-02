@@ -1,5 +1,3 @@
-ansible_ssh_common_args: '-o ProxyCommand="ssh -W %h:%p -q pc-132.fit.cvut.cz"'
-
 ubuntu_mirror: http://cz.archive.ubuntu.com/ubuntu
 group_packages:
   - build-essential

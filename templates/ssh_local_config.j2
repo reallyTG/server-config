@@ -1,0 +1,30 @@
+# This file is automatically generate with ansible
+# Do not edit manually
+
+{%- for item in groups['all'] %}
+{%- set short_name = item.split('.') %}
+{%- if USER is defined or PROXY is defined %}
+
+Host {{ hostvars[item]['ansible_host'] }}
+  Hostname {{ hostvars[item]['ansible_host'] }}
+  {%- if USER is defined %}
+
+  User {{ USER }}
+  {%- endif %}
+  {%- if PROXY is defined %}
+
+  ProxyJump {{ PROXY }}
+  {%- endif %}
+{%- endif %}
+
+Host {{ item }}
+  Hostname {{ hostvars[item]['ansible_host'] }}
+  {%- if USER is defined %}
+
+  User {{ USER }}
+  {%- endif %}
+  {%- if PROXY is defined %}
+
+  ProxyJump {{ PROXY }}
+  {%- endif %}
+{%- endfor %}

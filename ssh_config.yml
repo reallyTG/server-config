@@ -1,0 +1,22 @@
+# Use this playbook to generate a local ssh config for all
+# hosts. Set -e USER=user and/or -e PROXY=host to configure
+# your default remote username and/or ProxyJump host
+- hosts: localhost
+  tasks:
+
+  - name: "Generate local ssh config"
+    template:
+      src: templates/ssh_local_config.j2
+      dest: ~/.ssh/config_prg
+      mode: 0400
+
+  - name: include local ssh config
+    lineinfile:
+      path: ~/.ssh/config
+      state: present
+      regexp: "{{ item.regexp }}"
+      line: "{{ item.line }}"
+    loop:
+      - { regexp: '^include config_prg$', line: 'include config_prg' }
+
+
