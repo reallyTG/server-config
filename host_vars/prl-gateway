@@ -9,6 +9,8 @@ users:
   - charig
   - stw
   - maka4186
+  - kovalenko_alex
+  - bchung
   
 remove_invalid_users: true
 

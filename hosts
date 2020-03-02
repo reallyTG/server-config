@@ -4,8 +4,8 @@ rir-benchmarks            ansible_host=10.200.14.208
 rir-benchmarks-web        ansible_host=10.38.5.94
 rir-gitlab-runner         ansible_host=10.38.5.93
 dejavuii                  ansible_host=10.38.5.64
+bigcode-gpu02             ansible_host=10.200.14.143
 # these are disabled yet until all their configuration is done
-#bigcode-gpu02             ansible_host=10.200.14.143
 #prl2                      ansible_host=10.200.14.52
 #prl3                      ansible_host=10.200.14.53
 #prl4                      ansible_host=10.200.14.54
