@@ -87,7 +87,7 @@
     - "{{ (all_users | selectattr('username', 'in', users) | list) | difference(all_users | selectattr('username', 'in', admin | default([])) | list) }}"
 
 - name: remove users
-  when: users is defined
+  when: (users is defined) and (remove_invalid_users is defined)
   user:
     name: "{{ item.username }}"
     state: absent

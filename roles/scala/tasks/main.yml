@@ -1,0 +1,34 @@
+---
+
+- name: create scala group
+  group: 
+    name: scala
+    state: present
+
+- name: add oracle repo (scala)
+  apt_repository:
+    repo: ppa:webupd8team/java
+    state: present
+
+- name: debian | set license as accepted
+  debconf: name='oracle-java8-installer' question='shared/accepted-oracle-license-v1-1' value='true' vtype='select'
+  become: yes
+
+- name: install oracle jdk
+  apt:
+    state: present
+    name: oracle-java8-installer
+
+- name: install sbt (scala)
+  apt:
+    deb: https://dl.bintray.com/sbt/debian/sbt-1.1.4.deb
+    state: present
+
+- name: add users to group scala
+  when: users is defined and item.in_scala|default(false)
+  user:
+    name: "{{ item.username }}"
+    groups: scala
+    append: yes
+  with_items:
+    - "{{ users }}"

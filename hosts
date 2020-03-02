@@ -3,8 +3,21 @@ prl-gateway               ansible_host=10.38.5.81
 rir-benchmarks-web        ansible_host=10.38.5.94
 rir-gitlab-runner         ansible_host=10.38.5.93
 dejavuii                  ansible_host=10.38.5.64
+# these are disabled yet until all their configuration is done
+#bigcode-gpu02             ansible_host=10.200.14.143
+#prl2                      ansible_host=10.200.14.52
+#prl3                      ansible_host=10.200.14.53
+#prl4                      ansible_host=10.200.14.54
+#prl5                      ansible_host=10.200.14.25
+prl1e                      ansible_host=10.200.14.124
+
 
 [public]
 prl-gateway
 
+#[r]
+#prl3
+
+#[scala]
+#prl4
 

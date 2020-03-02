@@ -1,0 +1,15 @@
+---
+
+- name: restart docker
+  service:
+    name: docker
+    state: restarted
+
+- name: restart sshd
+  service:
+    name: sshd
+    state: restarted
+
+- name: test docker
+  command: docker run hello-world
+

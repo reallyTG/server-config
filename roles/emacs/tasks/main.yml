@@ -1,0 +1,44 @@
+---
+
+- name: create temporary directory for building emacs
+  tempfile:
+    state: directory
+    suffix: emacs-src
+  register: emacs_build_dir
+
+- name: install emacs dev dependencies
+  apt:
+    name: "{{ packages }}"
+  vars:
+    packages:
+      - libncurses-dev
+      - libxpm-dev
+      - libgif-dev
+      - libgnutls28-dev
+
+- name: download and extract emacs
+  shell: curl https://ftp.gnu.org/gnu/emacs/emacs-26.2.tar.xz | tar -x --strip 1 --xz
+  args:
+    chdir: "{{ emacs_build_dir.path }}"
+    creates: "{{ emacs_build_dir.path }}/src"
+
+- name: build
+  shell: |
+    ./configure --prefix=/usr/local --with-x-toolkit=no
+    make -j32
+    make install
+  args:
+    chdir: "{{ emacs_build_dir.path }}"
+    creates: "{{ emacs_build_dir.path }}/src/emacs"
+
+- name: install
+  command: make install
+  args:
+    chdir: "{{ emacs_build_dir.path }}"
+    creates: /usr/local/bin/emacs
+
+- name: remove the temp directory
+  file:
+    path: "{{ emacs_build_dir.path }}"
+    state: absent
+  when: emacs_build_dir.path is defined

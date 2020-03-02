@@ -9,3 +9,6 @@ users:
   - charig
   - stw
   - maka4186
+  
+remove_invalid_users: true
+

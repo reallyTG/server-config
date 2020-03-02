@@ -1,0 +1,35 @@
+- apt_repository:
+    repo: ppa:marutter/rrutter3.5
+
+- name: install R native dependencies
+  apt:
+    update_cache: yes
+    state: present
+    name:
+      - build-essential
+      - gfortran
+      - libpng-dev
+      - libjpeg-dev
+      - libtiff5-dev
+      - procps
+      - libmariadb-client-lgpl-dev
+      - libxml2-dev
+      - zlib1g-dev
+      - libbz2-dev
+      - liblzma-dev
+      - libpcre3-dev
+      - libcurl4-openssl-dev
+      - libreadline-dev
+      - libssh2-1-dev
+      - libssl-dev
+      - r-base
+      - r-base-dev
+
+- name: install R packages
+  command: Rscript -e 'install.packages("{{ item }}", lib="/usr/local/lib/R/site-library", dependencies=TRUE, INSTALL_opts=c("--example", "--install-tests", "--with-keep.source", "--no-multiarch"), Ncpus=50, repos="http://mirrors.nic.cz/R")'
+  args:
+    creates: "/usr/local/lib/R/site-library/{{ item }}"
+  loop:
+    - tidyverse
+    - covr
+    - devtools
