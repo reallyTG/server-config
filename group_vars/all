@@ -101,7 +101,12 @@ all_users:
     name: Benjamin Chung
     ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAxomumPWAEIu0RS2dg5ZOqPCmJdatsFTAcFb2mjp3hOJJAMZr9ef/cZLd2xMunHaxmKWhdNn32IB+lAl+9oqvrTArFDQcNciyb4AHJCEXYU+LuvUn1fASg8fdSC9101vR2Ui5FiqPhmytnGPSq5ujnYqfHCVjXJW9xukzdZlUrznlyqnv8nWGw7Avd427nA4EkOlkhA/z23V5xW/s7RdknvsTxfpjHRGl1WKTds1kcGJbmtYSrQ/fVZVvHvd96QRPvjIodWTuNs7ybgU7jLoP6rT7KvK2tb7IqunUHfH8BwbhxzD6sfiTfy81N0GmNUtD7lq8iale1HBm47Q5wwo3ww== ckfinite@gmail.com"
     shell: /bin/bash
-    
+
+  - username: skrynski
+    name: Sebastian Krynski
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC7CJOFO0iJG/GUlAJP7+jdLtllb9gG+lK85YFm5UXEouLLWn8nAXIp481LQa3y/X/5O6GQyKQogmtXYnC0LypWQatB8Nm8eYXKVUy+FdHcosyD/MXqwHQJ4FlweRmJE27CVAv7FHmXfNvB1/C/RHaO/JN3Yes5BrbYTHVsNe+TXjEEUn17dwp1V9q/iTU9Xf/4mw+5xrfAI9J8ACdeUhu4cfLf9aXP0/LLbnMZ8sC8B3LFzgW2mMj06Vm0tvDcspb/gX4s3bFwGwr4KAVR8jA2kNaMFvxj8z0Pw6ZQJWecZwUnpKk9qWK6K7gh5uNZiAseOIGEDLRuQX/I3oV7XSkR skrynski@gmail.com"
+
+
   # temporary users
 
   # Tobias and Malin - on the gateway and on dejavuii
