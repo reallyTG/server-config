@@ -3,7 +3,7 @@
   roles:
     - common
 
-- hosts: rir-gitlab-runner
+- hosts: rir-gitlab-runner, rir-benchmarks
   remote_user: root
   roles:
     - gitlab_runner
