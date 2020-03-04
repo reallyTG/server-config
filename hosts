@@ -5,11 +5,11 @@ rir-benchmarks-web        ansible_host=10.38.5.94
 rir-gitlab-runner         ansible_host=10.38.5.93
 dejavuii                  ansible_host=10.38.5.64
 bigcode-gpu02             ansible_host=10.200.14.143
+prl5                      ansible_host=10.200.14.25
 # these are disabled yet until all their configuration is done
 #prl2                      ansible_host=10.200.14.52
 #prl3                      ansible_host=10.200.14.53
 #prl4                      ansible_host=10.200.14.54
-#prl5                      ansible_host=10.200.14.25
 # these will be destroyed once we move to the new infrastructure fully
 prl1e                      ansible_host=10.200.14.124
 
@@ -26,3 +26,8 @@ prl-gateway
 #[scala]
 #prl4
 
+[rvm]
+rir-benchmarks-web
+rir-benchmarks
+rir-gitlab-runner
+prl5

@@ -2,3 +2,6 @@ users:
   - oli
 admin:
   - oli
+root_login:
+  - oli
+  - peta

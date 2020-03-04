@@ -1,0 +1,26 @@
+- name: gitlab runner repo
+  apt_repository:
+    repo: "deb https://packages.gitlab.com/runner/gitlab-runner/ubuntu/ bionic main"
+    update_cache: no
+    state: present
+- apt_key:
+    url: https://packages.gitlab.com/runner/gitlab-runner/gpgkey
+    state: present
+- apt:
+    name: gitlab-runner
+    state: latest
+- apt:
+    name: python-gitlab
+    state: latest
+# For some reason that does not work
+# - name: "Register rvm runner"
+#   gitlab_runner:
+#     api_url: https://gitlab.com/
+#     api_token: "{{ GITLAB_TOKEN }}"
+#     registration_token: myMhrWV6S3yr2Zid6WzV
+#     description: "runner {{ inventory_hostname }}"
+#     state: present
+#     active: yes
+#     tag_list: []
+#     run_untagged: yes
+#     locked: no

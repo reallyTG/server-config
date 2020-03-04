@@ -10,7 +10,7 @@ group_packages:
   - tmux
   - wget
   - zsh
-  
+
 all_users:
 
   - username: krikava
