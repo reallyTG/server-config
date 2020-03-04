@@ -24,3 +24,21 @@
 #     tag_list: []
 #     run_untagged: yes
 #     locked: no
+
+- name: add gl runner to docker group
+  user:
+    name: gitlab-runner
+    groups: docker
+    append: yes
+- name: enable gitlab-runner service
+  systemd:
+    name: gitlab-runner
+    enabled: yes
+    masked: no
+    state: started
+- name: Cronjob to cleanup docker imgs"
+  cron:
+    name: "cleanup docker"
+    special_time: "daily"
+    job: "docker rmi $(docker images -q)"
+    user: "root"
