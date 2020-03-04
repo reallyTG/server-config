@@ -3,7 +3,13 @@
   roles:
     - common
 
-- hosts: rir-gitlab-runner, rir-benchmarks
+- hosts: gitlab_runners
   remote_user: root
   roles:
+    - docker
     - gitlab_runner
+
+- hosts: docker
+  remote_user: root
+  roles:
+    - docker
