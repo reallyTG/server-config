@@ -5,14 +5,14 @@
     name: r
     state: present
 
-- name: add users to group r
-  when: users is defined and item.in_r|default(false)
+- name: add users to r group
+  when: (users is defined) and (item.in_r | default(false))
   user:
     name: "{{ item.username }}"
     groups: r
     append: yes
   with_items:
-    - "{{ users }}"
+    - "{{ all_users | selectattr('username', 'in', users) | list }}"
 
 # - name: add docker key
 #   apt_key:

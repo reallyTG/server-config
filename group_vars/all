@@ -18,18 +18,25 @@ all_users:
     name: Filip Krikava
     ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAzwdcb4rxcvRppWy3FoGhmuaaMdYyP82bBsQJaDy5Yet1YnuD7j+SwGvovx4aJvjWtF/zY/IxmXT5CIjaNq28P47Ul2yYkLd2MZHO8CuxybakCaJ2B/1wliVuHBJQd5tV+pDUyDbW4gQEk/CI1PN0EJVrq2xfnvon6hLRNxBLG/IsljsBp+Ezuh+2QVkQ54jHpH33yKbEB13wiOEFvHEDRwnPvb1vIv1Hp2Q7r0J+uJi7GmW30sCrzRB8VOgHl1PvPaPzyoFAUFLTsh2OY4S6OjCgMZp5h+cbUiMBZLz/Gex18Wd9JjTpbHxfTwlU+CaABwJdutg1JtnYaUZBeXlI1w== krikava@filip-krikavas-macbook-pro.local"
     shell: /bin/zsh
+    in_docker: yes
+    in_r: yes
+    in_scala: yes
 
   - username: blorente
     uid: 1002
     name: Borja Lorente
     ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCcWVHY83SYDfmaINIkGJuxyaee0r3J9/Y8FRDEO+WbnMcCl4Ut7IZgJucTdDJ8hWUMHMKwoQUHfKejc+GZ4WofNH8wN/O9hhQD9PcdZHHXScvDZBjSCyMpEjmykkN5bTAJyFOstNNcOAatp2LigOz55Sc18GogmlUZFxZW3oTXhX4m7FdpsO5ebHg88vOYgv7aeJ7HIaAM81DU1sR5hG1oS7VxmfTbaiDc3LKYisvbLFZ+wLXBYRwn/99kkR8eJ64siMqPVNT08AOs03uoC3rg/qyONZ0EDilADm/MS1piJHJlyOqw8mf7sCGvIdhXKow86+vZAeiRL8T2gfSRyJr3 lorenbor@fit.cvut.cz"
     shell: /bin/bash
+    in_docker: yes
+    in_scala: yes
 
   - username: jan
     uid: 1003
     name: Jan Vitek
     ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCaLPK+wO6G3wOLQkJZthRlKM6sI+39XeR2eh6vf0yJJIbeadfU4gxdBq1hhNmLblydKpl/N7T1kCPmDFziC+FODU4nxeBVYIL9HISLFYG9a18URyPCB6mSg4A8/erHFs+UL9OmDYpj1azOnEmsS9bkcLjCB0IIIax3bBmKe1Ryrg7yBu5QJvZ9g4Jvm2j5B1WLiFhMqvgwAH/lNgKQ26ZGr4Fdn7P2tmN5TRzsYJ/ISCbciKGIfvjCHBh9Gk11xvjHXTGbZ8CzrfBLCM3N3xhWCCv0B/tMZmYsp3qmCZx8XYj/L0dgEwiR4ySez5uftArTimsN801ww8o8Pcj5sTKh janvite@yahoo.com"
     shell: /bin/bash
+    in_docker: yes
+    in_scala: yes
 
   - username: kondziu
     name: Konrad Siek
@@ -40,12 +47,16 @@ all_users:
     name: Heather Miller
     ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCgEzCw1a14pPMqgK5U0aPIHKB/thnAep5VXMmdrqpUznUoNCsfyRrc9OMch/1usTy4OWsHBHGTzDSUGKrh8BUPJqlHlT8ypV/oxfGJ58fjzReCPSO/hYt0HTJR19CMCoUfk5IRC1Lq6DHdZ/tbGp6oyRMdp5qR9jNnf72u+UJkkPp6pFxGF7VdUii3F13bkg595mx3LTRUU6Cd6g6tiSFlTxiIrBYWmNXeg7gC/UgnIK3N7rlu2SprHD8e6oaPfeyIKbExyP9cSwuDfky6SXKixO6Kk8vRJqo5Q/BcjdQwd7CyuPj4IDi19LGcZ6x6NGwx0KKQ7K91Jg8kBPUEDCFlhMFPi7Y8b0D+il1ph8ED+87URV8KcYv+Fr72fn0BOaDvzUv8NV8F3BRh8XHoaL0oAXI1n4UZAfRfjs4mtQHR8ixtzJpZcMgFO+wj3nyVSsb2VCx/vKJqeP44+VvcJlMgFVsXfbmb5/s53axvoUwsj43Gecb6hXurywFVXg7e76DbJeA5guEbdmXDtKR9HZwYC/IhTfSwBvqS946beaG/eyl+9aVca/xWqXFGybs2aVlbt9MrN+Ae0CNTu0fpy9as/OEEmhGE/nVdog0qOIAA+RU+9n//vwCjbi0T63tbNVeHbDZtVJG34Xe+2O6jgIq/yOqxOokqW0QWcsqtVQXkVw== heather.miller@cs.cmu.edu"
     shell: /bin/bash
+    in_docker: yes
+    in_scala: yes
 
   - username: jecmejan
     uid: 1006
     name: Jan Jecmen
     ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC7dzCa1xk9vuoIjic6/lFYjFp153fg6uby6apEPySGNo6ppVCHa7RtbJ3acd3qhbzbVTCpFLdjo6MldczXNYUWKw6YnczcuKSsP6tzOk3FmK4TRfWMqJNh8OkqV7MMA6ltChWboiqpIk05nM9ninb2aDR75LRlQ7mUl+TJcLOJWAIhvQlm4riJUWv0gA+T8EkL9fR2Rc/EFqPtXhskxIAyN6F14zn0Yq4ljzXMTTjpVP2YDAKUm87FbL+IaaxxkWVB1MG3fucv1j4gfhsyHaAENBkX4FwF6whA66jw37APAU5L8VWZ8naXhlB3mt3FI8g93nNm015dU+8xTzWoLHx2wrCIVk2Lxsx/9IyKF8KozFDOhTBUhUgDpOcfW//DauIAHoQRPWZeNe04CoFY8vm1lAj1AgjNwbK9OaZyCLuazQ45fmPovEbg4FCyBZj2tsYSyGOJJxZ/bMPdkS5067zNoYV2FCv44vnhcA2/WRuRQZNhnG4XYo/Vw5evScHTmVlakmb7PSspOIseGme/2lQavgmGyq9LWyXOk1IrtNaUNDEyIBe+aeJf0uPqcClXt0QBH9+1GnO+sR1QaEFQw9098TcLmIPuuc8fD0Vw7qPhfUnIQrpz1HSQBIYGVGn3IMqDqeOpwbvjJjRpX6gjVC2vd2zR82+XFQHRnDmJj819uQ== jan.jecmen@gmail.com"
     shell: /bin/bash
+    in_docker: yes
+    in_scala: yes
 
   - username: jakob
     name: Jakob Hain
@@ -71,24 +82,32 @@ all_users:
     name: Chakshu Goyal
     ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDAyN8IK8q9e5ur0N+jdlSXb4SJiHbsQK6M6+fCFXc+D0EmwYaowIFNORPsQJQjXukqWR13oaKY6jlrQWebf1JFBAmo5Ur9JPi541RaJNIhTPMxGGP+17iyZ3ySomnnQET4uu3hnpBiMV0GLqfN+zSEJkLZK0zat4UO2iSE27IA9mJyTaeMiVfmpjG4RtZxOqX/xAEtr2ZyKwHStRT7KEQU7PaaN/f5BVsE/5lZ6jrzDp9fzBJLI6neWN8NIiRM9wGiKTZgAm6HSuP9WU8mzWQky7iwENE+s8JfdcLOCbAX8ytP877KE3luOTmPhOdGiZFosEqaPqInuc4BYyAu5s8L chakshugoyal97@gmail.com"
     shell: /bin/bash
+    in_docker: yes
+    in_r: yes
 
   - username: alexi
     uid: 1115
     name: Alexi Turcotte
     ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8Y9KDoHlMBllYh62c6XuO10263PtwptN+E2arlmwyVX2iBU/3h7JAYalP0eZCLNIvLfWbtUiD2uS9iy8RylJ6TQNCOjDltRllgiwBQ1ARwa6Nw8UnFOok87GLjrOJeCBRd80LhuM2uWiZMaGnrVdFxhjadiRnwLIdmVryI8avsEpUf65ir5SBr8c/HDCnj85IuWy0aMDB/6zy+qaSrsQRlANu/sgGDhsGghmqDPzCt6d0GHuK/zlVht6dkdwsCSSchFfxiHIU31cmQyZPbkQ6CZpGiOnalR7tW9GRdakyVeIr2HC/XXymuoOntKgoBzCnak17iqNkFyh89eN8gXuN Alexi@Caledfwlch-20.local"
     shell: /bin/bash
+    in_docker: yes
+    in_r: yes
 
   - username: aviral
     uid: 1729
     name: Aviral Goel
     ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCtZAI+CgHF2RfUGTTNhejQuZUlGIuYbA3tTnYpYloXpGl0ahttuVO8sNJ23apQn1eGenKzNOS/9Nxk3kBuLEBifv2libqtqUn16ixrsUttsoE/JJqXFPWZwH7c5fKq0Su1K+GMWWhBkzw5iwF7icqTQGsQdYheERE/LewKor4LMtgKZ/PvKAbAyNZadIwhiPGAeCJglBmIN8AirDDswR2bOhAwhN8MTYo5kOOmKRoNwKwDJYnjkXXO/M3C92ZN4JzACwp9OA96o7wwGwIqFeldWMURQa4fmHbSbhbhXw40l3bjIULai161C+nDcINnK2kpL5l4HnQ8lN41fJQC4P5T goel.aviral@gmail.com"
     shell: /bin/zsh
+    in_docker: yes
+    in_r: yes
 
   - username: artem
     uid: 1799
     name: Artem Pelenitsyn
     ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDipD0jpN1WxGOp+Ij5aqpLafM/6hCkf9ltaMpIlaBHxvNH2HRUbf5WOK8Vjb6lpHC0DZrsOgCc/FM96bGeIBmLZit9r1S6soAEHKIhHPjFhleBJo+T/b8F+Rm+afWMtUtVysQHe0u168g+NEovv0XzaDjBkZ+vOJUYL/u7YJbHDsLk1u+IzlIqCvelDYPrnJz49o849T3A3hfBlWx/q2WAsM8a6Wz2j+2ggzi8vo2RFQGzxswCq9KGO69XQjWgH5rw7d8I9jD2ccbj+mheVJuZLuYohTIkW8+i/93ReMvqate1LDIEpyQdm6OiyCVUn89BMmN186tNc+R5tvOaXFMT ulysses@ulysses-laptop-2"
     shell: /bin/bash
+    in_docker: yes
+    in_r: yes
 
   - username: charig
     name: Guido Chari
