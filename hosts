@@ -31,3 +31,11 @@ rir-benchmarks-web
 rir-benchmarks
 rir-gitlab-runner
 prl5
+
+[gitlab_runners]
+rir-gitlab-runner
+rir-benchmarks
+prl5
+
+[docker]
+rir-benchmarks-web
