@@ -3,6 +3,7 @@ users:
   - kondziu
   - stw
   - maka4186
+  - yuancao
 admin:
   - peta
 host_packages:

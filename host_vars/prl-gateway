@@ -7,10 +7,11 @@ users:
   - aviral
   - oli
   - charig
-  - stw
-  - maka4186
   - kovalenko_alex
   - bchung
+  - stw
+  - maka4186
+  - yuancao
   
 remove_invalid_users: true
 
