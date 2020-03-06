@@ -119,6 +119,10 @@ all_users:
   - username: maka4186
     name: Malin Kallen
     ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCjAQyQU8Zttjn0gyDt5WeBjlUrsMoYndZk6Wz9+zhFWLgxHMxyGyo0ufaEFN7B6fMZuCM0c4xTIjvxIrIlHD/TJdt4OHtNfctvtYlURWxmZadlNEfsHSowp2iMRyXwh1pWdby3ANN31w43F6HtBZNqQBO5fh6c0kR/GWaUeAV7AWo5YxZloQ920zW7Wg0pdAZPxNx28cri4/7ReWf/ZsdFSDFB9dOlgiOwKHq/H9bI7V0Rol0NNiYIoiE1KbpsQO1rGAwUkLRIXiMjgyUdQSs3y6WrTcEUuhOGW/gRTbmA+j3wbvbRA36nTjUZz9YLeKhys9dZ14wrXgoUG8nsDUEL tragula 2017-01-05"
+    
+  - username: yuancao
+    name: Yuan Cao
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC57PlxTY5fF50DSg5q8KiOghMjlrheHRnEEmiONlWfTDrORMrQLxh5KwZCNLm+qH1eu11A2Wj6zgmF63fzk+lht+gJKOcxWMlGdrsWv3tFW2Xi1UumQ5nMpFJw/vmR54XBYPPcVrMHZrKxidqX0v2/fFvo0HfaY4DGPXeUEmiS6OiJ4cu3HU08vM2VqAQzw48pwgH1lZIizf7YU1Okjr2ypb/r89n4eVM74HYnmWyqLIOxeFeMBUu3Q4SCdKWxbYefUwpPGmNxvjojMLwr3fILuD7IIloweu/kZ3K4IBux/sKny6OJ+WZWQFtPbna2KTNOwKFYTmYsNy1tN+RPrwBUjdCLbTAdrx6KgLmrjPmjQ9603R4f3jyduN3VV92W0Bn8N7qOUCnRltjKrucLD9aCUkKzr/XdP6mwbZfXs7mT+ZdKxvy0uQQ2oEPe0T6NM1rWZZmjsaJK64m6iGMTO0Ga4Kqihz/mArB4GbeckiypO7y5G8uzGjh07r5b/4NdrXe9U5ezMatqWgRIhhwNIFSE4St0gGzHiUVLIcAFkRc3ERc3S+4CiP0g+x0bIrL8NTpfgm7tQSveUbEcdW9bx3EC7acATB28n8sgJlhAlPAEeNjfssuvhXqfDL7X812gpXtfYq+1/TOycmk2h0zzk4yRtFM4fu8nEGaWtKhmJc1AJw== yuan.cao.email@gmail.com"
 
   # no longer active -- these users are kept here so that the scripts remove them from servers
 
