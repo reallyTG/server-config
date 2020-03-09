@@ -6,8 +6,8 @@ rir-gitlab-runner         ansible_host=10.38.5.93
 dejavuii                  ansible_host=10.38.5.64
 bigcode-gpu02             ansible_host=10.200.14.143
 prl5                      ansible_host=10.200.14.25
-prl3                      ansible_host=10.200.14.53
-prl4                      ansible_host=10.200.14.54
+#prl3                      ansible_host=10.200.14.53
+#prl4                      ansible_host=10.200.14.54
 
 # these are disabled yet until all their configuration is done
 #prl2                      ansible_host=10.200.14.52
@@ -18,15 +18,15 @@ prl1e                      ansible_host=10.200.14.124
 prl-gateway
 
 [metal]
-prl3
-prl4
+#prl3
+#prl4
 prl5
 
 [r]
-prl3
+#prl3
 
 [scala]
-prl4
+#prl4
 
 [rvm]
 rir-benchmarks-web
@@ -41,3 +41,4 @@ prl5
 
 [docker]
 rir-benchmarks-web
+prl1e
