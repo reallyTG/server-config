@@ -19,13 +19,13 @@
     - test docker
 
 - name: add users to docker group
-  when: users is defined and item.in_docker|default(false)
+  when: (users is defined) and (item.in_docker | default(false))
   user:
     name: "{{ item.username }}"
     groups: docker
     append: yes
   with_items:
-    - "{{ users }}"
+    - "{{ all_users | selectattr('username', 'in', users) | list }}"
 
 - name: install docker-compose
   get_url:

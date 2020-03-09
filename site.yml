@@ -13,3 +13,20 @@
   remote_user: root
   roles:
     - docker
+
+- hosts: r
+  remote_user: root
+  roles:
+    - emacs
+    - docker
+    - r-base
+    - r
+
+- hosts: scala
+  remote_user: root
+  roles:
+    - emacs
+    - docker
+    - r-base
+    - scala
+    
