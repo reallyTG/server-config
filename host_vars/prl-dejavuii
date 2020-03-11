@@ -1,0 +1,10 @@
+users:
+  - peta
+  - kondziu
+admin:
+  - peta
+host_packages:
+  - cmake
+  - gcc-8
+  - gdb
+  
