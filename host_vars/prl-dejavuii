@@ -7,4 +7,7 @@ host_packages:
   - cmake
   - gcc-8
   - gdb
+    # development packages for dejavuii  
+  - libssl-dev
+  - libcurl4-openssl-dev
   
