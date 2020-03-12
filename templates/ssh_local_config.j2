@@ -3,28 +3,35 @@
 
 {%- for item in groups['all'] %}
 {%- set short_name = item.split('.') %}
-{%- if USER is defined or PROXY is defined %}
 
-Host {{ hostvars[item]['ansible_host'] }}
-  Hostname {{ hostvars[item]['ansible_host'] }}
-  {%- if USER is defined %}
 
-  User {{ USER }}
-  {%- endif %}
-  {%- if PROXY is defined %}
+{%- if SUFFIX is defined %}
 
-  ProxyJump {{ PROXY }}
-  {%- endif %}
-{%- endif %}
+Host {{ item }}{{ SUFFIX }}
+
+{%- else %}
 
 Host {{ item }}
-  Hostname {{ hostvars[item]['ansible_host'] }}
-  {%- if USER is defined %}
 
-  User {{ USER }}
-  {%- endif %}
-  {%- if PROXY is defined %}
+{%- endif %}
 
-  ProxyJump {{ PROXY }}
-  {%- endif %}
+    Hostname {{ hostvars[item]['ansible_host'] }}
+    
+{%- if USER is defined %}
+
+    User {{ USER }}
+    
+{%- endif %}
+
+{%- if PROXY is defined %}
+
+    ProxyJump 147.32.233.132
+    
+{%- endif %}
+
+
 {%- endfor %}
+
+
+
+

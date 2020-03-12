@@ -33,16 +33,16 @@ This is the preferred option if you work for CTU. Details on how to create a cer
 We have a public gateway server `147.32.233.132`. You can use it to connect to all our other servers.
 To automatically generate entries for all configured servers run:
 
-    ansible-playbook [-e PROXY=YOUR_USERNAME@147.32.233.132] [-e USER=YOUR_USERNAME] -i hosts ssh_config.yml
+    ansible-playbook [-e PROXY=T ] [-e USER=YOUR_USERNAME] -i hosts ssh_config.yml
 
 This generates an ssh config (on your machine) for every host configured in the hosts file, as follows:
 
     Host foobar
         Hostname IP_ADDRESS
         User YOUR_USERNAME
-        ProxyJump PROXY
+        ProxyJump 147.32.233.132
 
-Then everytime you write `ssh foobar` you will get connected through the gateway.
+Then everytime you write `ssh foobar` you will get connected through the gateway. If you connect via vpn, remove the `PROXY=T` argument. 
 
 # Administration & Changing Settings
 

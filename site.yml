@@ -2,6 +2,12 @@
   remote_user: root
   roles:
     - common
+    
+- hosts: rstudio
+  remote_user: root
+  roles:
+    - r_latest
+    - rstudio
 
 - hosts: gitlab_runners
   remote_user: root

@@ -42,7 +42,7 @@
     - { regexp: '^ChallengeResponseAuthentication', line: 'ChallengeResponseAuthentication no' }
     - { regexp: '^PasswordAuthentication', line: 'PasswordAuthentication no' }
     - { regexp: '^PermitEmptyPasswords', line: 'PermitEmptyPasswords no' }
-    - { regexp: '^UsePAM', line: 'UsePAM yes' }
+    - { regexp: '^UsePAM', line: 'UsePAM no' }
   notify:
     - restart sshd
 
@@ -52,11 +52,22 @@
   user:
     name: "{{ item.username }}"
     state: present
-    password_lock: yes
     uid: "{{ item.uid | default(omit) }}"
+    password: "{{ item.password | default(omit) }}"
     shell: "{{ item.shell | default('/bin/bash') }}"
   with_items:
     - "{{ all_users | selectattr('username', 'in', users) | list }}"
+
+- name: set user passwords
+  when: (users is defined) and (item.password is defined)
+  user:
+    name: "{{ item.username }}"
+    state: present
+    password_lock: no
+    password: "{{ item.password }}"
+  with_items:
+    - "{{ all_users | selectattr('username', 'in', users) | list }}"
+
 
 - name: add authorization keys
   when: users is defined

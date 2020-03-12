@@ -18,6 +18,9 @@ prl1e                      ansible_host=10.200.14.124
 [public]
 prl-gateway
 
+[rstudio]
+prl-dejavuii
+
 [metal]
 #prl3
 #prl4

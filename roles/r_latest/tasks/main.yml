@@ -1,0 +1,15 @@
+- name: add R repo key
+  apt_key:
+    keyserver: keyserver.ubuntu.com
+    id: E298A3A825C0D65DFD57CBB651716619E084DAB9
+    
+- name: add R repository
+  apt_repository:
+    repo: deb https://mirrors.nic.cz/R/bin/linux/ubuntu bionic-cran35/
+
+- name: install R packages
+  apt:
+    state: present
+    name:
+      - r-base
+      - r-base-dev

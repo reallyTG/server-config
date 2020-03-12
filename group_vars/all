@@ -76,6 +76,8 @@ all_users:
   - username: peta
     name: Petr Maj
     ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDWklWGXpk18d/6MYQhnHz0lLxsVZR8kcmu+GSsVUGaVhA1Yx1CEzLpP+1OL9C75XG6sry2tqf7J9eRkcn+TzC09xR+IBrLs92lFkrwZT/dwIgCijgf7zSjvmVZa57kLmwVVHD8lZo2xqSXRRf8NpZk/4wjOZGOTW2JKlCgGLUzhrreLswXq1HG7FRTmu6PzlziqNxNwclC3qwiJDazyqGJGwuqmr2CE/MqOAqN1zHkAmIsTv0KN7EBStDo8BvJ0DkCAfT43Fwmxg/w009kUS5v9h7dZ/E1el1qfIWaTLMHjqiK3KPnTRXcsBDWJ32NLL+1fbYijmfoosoP7b9v72M6nz52uovezvMbOLqydp6gLB8BsrKuwdt7P7dtkkZVLF0nPKryD54Jb7MhTQWTpy9uVWhqA7tfCYpGhNRxJwiLpKSnXjVjeyhDe1hhD1mw4nTgZXBpjPt1DYUlrwW5DAKg9fFXjsFnRm5CyBlYwwGSbfOrCdUNJ/dVj14WTrCW4WalQFcNmcpyfJuHu0gzqu42KHetvonnrBloGIlY6TCg+K3iS1sRxguFOKIWNT0T2gxAOxnPdDIQsA7R93A+XasvzgZATGiQXA7B7U0AAdcn5bzlMELTpqzzmsMJW74KAyFVVM8OQVnMLuplrKkkAQaYdS7tWur6xqJYNSRX/IWz/Q== peta@orange"
+    password: "$6$9Tegr2.QGk5$7TkIIOLj9NMZnLBJb5wva1Dtm9ZA/D8kVpVAx4h7V6yaOwAh/rae6ts/9hEpjxkS.sqNiMyE1z.rNchbUX2Kv0"
+    shell: /bin/zsh
 
   - username: chakshugoyal97
     uid: 1114
