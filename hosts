@@ -7,11 +7,11 @@ dejavuii-test             ansible_host=10.38.5.64
 prl-dejavuii              ansible_host=10.38.5.108
 bigcode-gpu02             ansible_host=10.200.14.143
 prl5                      ansible_host=10.200.14.25
-#prl3                      ansible_host=10.200.14.53
-#prl4                      ansible_host=10.200.14.54
+prl3                      ansible_host=10.200.14.53
+prl4                      ansible_host=10.200.14.54
 
 # these are disabled yet until all their configuration is done
-#prl2                      ansible_host=10.200.14.52
+prl2                      ansible_host=10.200.14.52
 # these will be destroyed once we move to the new infrastructure fully
 prl1e                      ansible_host=10.200.14.124
 
