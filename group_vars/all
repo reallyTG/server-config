@@ -96,7 +96,7 @@ all_users:
     in_r: yes
 
   - username: aviral
-    uid: 1729
+#    uid: 1729
     name: Aviral Goel
     ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCtZAI+CgHF2RfUGTTNhejQuZUlGIuYbA3tTnYpYloXpGl0ahttuVO8sNJ23apQn1eGenKzNOS/9Nxk3kBuLEBifv2libqtqUn16ixrsUttsoE/JJqXFPWZwH7c5fKq0Su1K+GMWWhBkzw5iwF7icqTQGsQdYheERE/LewKor4LMtgKZ/PvKAbAyNZadIwhiPGAeCJglBmIN8AirDDswR2bOhAwhN8MTYo5kOOmKRoNwKwDJYnjkXXO/M3C92ZN4JzACwp9OA96o7wwGwIqFeldWMURQa4fmHbSbhbhXw40l3bjIULai161C+nDcINnK2kpL5l4HnQ8lN41fJQC4P5T goel.aviral@gmail.com"
     shell: /bin/zsh
