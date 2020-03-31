@@ -13,6 +13,7 @@ users:
   - stw
   - maka4186
   - yuancao
+  - camoy
   
 remove_invalid_users: true
 
