@@ -3,6 +3,7 @@ prl-gateway               ansible_host=10.38.5.81
 rir-benchmarks            ansible_host=10.200.14.208
 rir-benchmarks-web        ansible_host=10.38.5.94
 rir-gitlab-runner         ansible_host=10.38.5.93
+prl-julia                 ansible_host=10.38.5.109
 dejavuii-test             ansible_host=10.38.5.64
 prl-dejavuii              ansible_host=10.38.5.108
 bigcode-gpu02             ansible_host=10.200.14.143
