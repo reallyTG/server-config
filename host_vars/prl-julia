@@ -1,4 +1,6 @@
 users:
   - artem
   - julia
+admin:
+  - artem
   
