@@ -43,6 +43,7 @@
     - { regexp: '^PasswordAuthentication', line: 'PasswordAuthentication no' }
     - { regexp: '^PermitEmptyPasswords', line: 'PermitEmptyPasswords no' }
     - { regexp: '^UsePAM', line: 'UsePAM yes' }
+    - { regexp: '^StreamLocalBindUnlink', line: 'StreamLocalBindUnlink yes' }
   notify:
     - restart sshd
 

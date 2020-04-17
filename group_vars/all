@@ -162,3 +162,9 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDPx3Q4jtXaTh1YoEH8tQfkziWYw24SwM6W5c13Y6ZG
 
   - username: jcallaghan
     name: Joseph Callaghan
+
+  - username: hyeyoung
+    name: Hyeyoung Shin
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+A1FqT166AmsgNv2ETFbdZG1oSe5wJPg6Tkdb3nGM/g9dxodWCrCfosBzIp1x93rUUwmysQlaOi8YTfXePq6feloAz8YK2u/UabNJi3bjOh9hqOy3Vk/3jFwwKymddhXIXVt7pTqmZLBcc9Y2pMfrbqd9Opa+wgWUBhyfFUDDWATVJa7nbmd1ARe1qx0orrzo4SF7QiCEFnZxw4pWzxb2UApbRPQbqVSvLCWffVSdUk1baV5YhuNADaZpG2lCS+e3QNAfI3P4FjnXXV+WpJ1hgmUlcKoJupsmRbmOBKmkn/fzv8wASN1if6HnJTZIjEtGpUp2MqkO4DvXWigE9usx hyeyoungshin@deepersea"
+    in_docker: yes
+    in_r: yes
