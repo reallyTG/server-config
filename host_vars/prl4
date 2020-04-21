@@ -1,9 +1,12 @@
 users:
   - krikava
   - blorente
+  - aviral
   - jan
   - peta
   - heather
   - jecmejan
   - hyeyoung
   - vinklota
+admin:
+  - krikava

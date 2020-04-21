@@ -1,5 +1,6 @@
 [all]
 prl-gateway               ansible_host=10.38.5.81
+prl-web                   ansible_host=10.38.5.129
 rir-benchmarks            ansible_host=10.200.14.208
 rir-benchmarks-web        ansible_host=10.38.5.94
 rir-gitlab-runner         ansible_host=10.38.5.93
@@ -15,7 +16,7 @@ prl4                      ansible_host=10.200.14.54
 # these are disabled yet until all their configuration is done
 prl2                      ansible_host=10.200.14.52
 # these will be destroyed once we move to the new infrastructure fully
-prl1e                      ansible_host=10.200.14.124
+prl1e                     ansible_host=10.200.14.124
 
 [public]
 prl-gateway
@@ -26,15 +27,15 @@ dejavuii-test
 prl1e
 
 [metal]
-#prl3
-#prl4
+prl3
+prl4
 prl5
 
 [r]
-#prl3
+prl3
 
 [scala]
-#prl4
+prl4
 
 [rvm]
 rir-benchmarks-web
@@ -52,3 +53,4 @@ prl5
 [docker]
 rir-benchmarks-web
 prl1e
+prl4
