@@ -14,6 +14,7 @@ users:
   - maka4186
   - yuancao
   - camoy
+  - vinklota  
   
 remove_invalid_users: true
 
