@@ -1,13 +1,18 @@
 users:
   - peta
   - kondziu
+  - jan
+  - kovalenko_alex
 admin:
   - peta
 host_packages:
   - cmake
   - gcc-8
   - gdb
+  - valgrind
+  - silversearcher-ag
     # development packages for dejavuii  
   - libssl-dev
   - libcurl4-openssl-dev
+  - libglu1-mesa-dev
   
