@@ -26,7 +26,7 @@ All our machines are visible from desktops in our rooms. If you need to connect 
 
 ### Faculty VPN
 
-This is the preferred option if you work for CTU. Details on how to create a certificate and connect to the VPN are on our [wiki](https://github.com/PRL-PRG/prl-prg.github.io/wiki/Connecting-to-VPN).
+To connect to the new VPN, visit the updated FIT guide available in [czech](https://vpn.fit.cvut.cz) and [english](https://vpn.fit.cvut.cz/index.en.html). Note that this option is available to students, teachers and employees of CTU *only*. If available to you, please use the VPN for connections.  
 
 ### Public Gateway
 
