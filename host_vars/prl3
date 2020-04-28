@@ -6,6 +6,8 @@ users:
   - alexi
   - julia
   - camoy
+admin:
+  - krikava
 
 host_packages:
   - sqlite3
