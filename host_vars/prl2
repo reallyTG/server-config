@@ -2,3 +2,5 @@ users:
   - aviral
   - kondziu
   - krikava
+admin:
+  - krikava
