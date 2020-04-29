@@ -16,6 +16,7 @@ users:
   - camoy
   - hyeyoung
   - vinklota
+  - skrynski
   - krikava
   
 remove_invalid_users: true
