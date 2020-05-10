@@ -40,3 +40,7 @@
   shell: /tmp/install-gnu-parallel.sh
   args:
     creates: /usr/local/bin/parallel
+
+- name: install ripgrep
+  apt:
+    deb: "https://github.com/BurntSushi/ripgrep/releases/download/12.1.0/ripgrep_12.1.0_amd64.deb"
