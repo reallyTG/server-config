@@ -4,6 +4,7 @@ group_packages:
   - cmake
   - cloc
   - curl
+  - fasd
   - git
   - htop
   - mc
