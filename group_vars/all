@@ -145,6 +145,12 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDPx3Q4jtXaTh1YoEH8tQfkziWYw24SwM6W5c13Y6ZG
     in_docker: yes
     in_r: yes
 
+  - username: pdonatbo
+    name: Pierre Donat-Bouillud
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQChtA9vqNKtTepckpN+AIBsanv8d0LpD/aK5qx25jl84LROhnMhdaRtp5pc1nPzGRNU+V8VazsZg6ikGH0tJRdl2bPWs/dbIQDbWs19cIpc3ZrC7CVd6sMbpjdXv3hQh8kpU9rqiFpIPbzOP1FGXPnKpD9mSj89GuF6bq96XiRJC4XmohGAE5wK20YUkq2fVv/j6axP2v4ETa3xEeSl1ad8gOrSC+9kK9HsxTmK5Fwl1qAFoSTK2/JgnWTE1L899saFiziLeuGGEvL3nvED2PetbaC10VIEs1YsVo3JudlfsRIiblXZ+ydX9ubC4+9mSFYeWRfK8NsvCoGS9fcH8GIJ pierre@nomade-188.ircam.fr"
+    in_docker: yes
+    in_r: yes
+
   # temporary users
 
   # Tobias and Malin - on the gateway and on dejavuii
