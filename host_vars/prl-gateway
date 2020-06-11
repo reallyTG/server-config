@@ -18,6 +18,7 @@ users:
   - vinklota
   - skrynski
   - krikava
+  - pdonatbo
   
 remove_invalid_users: true
 
