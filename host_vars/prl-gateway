@@ -19,6 +19,7 @@ users:
   - skrynski
   - krikava
   - pdonatbo
+  - jack
   
 remove_invalid_users: true
 
