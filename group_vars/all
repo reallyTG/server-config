@@ -173,6 +173,11 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDaV5psdRHeF7KrvTrTXXmdC4jUgyh91lmgGc9fSTan
     in_docker: yes
     in_r: yes
 
+# Jan's student from Boston, uses prl-julia
+  - username: jack
+    name: Jack Gelinas
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDI+yg3uWWSo8mwRMECS73n9EvbHK5OcDeKxwY3ZGc8/OSF5C3OQkwd66Q6JrTK4CYibyDWGOQWSXxVpZclQTase2rhx194MrfoSeQXU6FhtZB/xgol5Fglv54Cefjbcw+9nyJoNXbTgQzrH/g5t0ZNkN/ZmUoysedis9FVUfdGXwqU7mtLPY5UiPsuB9AcjzL2KHx6dYai65ed3PpAW59V0X26a/V7AAVN2qLmUj/ET0UZ6rmb+TiiZUVgqUHIwqi5atO5gciBgsGmyR1UFlLu0hieSIqe6VUAqMWE1cDWixpOsnVYDJd0LbYYAstx7zxfZQuGrHl71AYeDFFA79d/PyNNH+QmdxWDWac4hcQdDI2zWkQmBxvtCMMeeahThwymd3WWwJ+qhbDaZTVG0g+pJgSI2ZZh+KlK7Bdkm3damJwreImyPIOzXbxGeHYNUMJwMCGbmsPTadhpOKUrP+pMN0puOjkdzsRHLn7r3LAN78iOyuijCFSP4BYfTyKutx8JXy86Q1/0qVNA1ZJGXi1/R8dtwOrHQ52rgdnMNbjpG5Ru57fFIbpnbK/LTZxJZ2Gfrlm4425ci/mY8a3rcrcyci/ngPkCMG1Q89kzZI8Qew2byCl4lff98xuForTNB5H3Koqk+G8XGzeaEV8sG7Kd4zBu0/4fZB/T4P5f9Tayow=="
+
 # Filip's student, uses prl4
 
   - username: vinklota
