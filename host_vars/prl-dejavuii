@@ -3,6 +3,7 @@ users:
   - kondziu
   - jan
   - kovalenko_alex
+  - asmar
 admin:
   - peta
 host_packages:

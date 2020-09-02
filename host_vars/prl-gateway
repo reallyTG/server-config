@@ -20,6 +20,7 @@ users:
   - krikava
   - pdonatbo
   - jack
+  - asmar
   
 remove_invalid_users: true
 
