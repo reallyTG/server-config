@@ -88,7 +88,7 @@ all_users:
     in_r: yes
 
   - username: alexi
-    uid: 1115
+#    uid: 1115
     name: Alexi Turcotte
     ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8Y9KDoHlMBllYh62c6XuO10263PtwptN+E2arlmwyVX2iBU/3h7JAYalP0eZCLNIvLfWbtUiD2uS9iy8RylJ6TQNCOjDltRllgiwBQ1ARwa6Nw8UnFOok87GLjrOJeCBRd80LhuM2uWiZMaGnrVdFxhjadiRnwLIdmVryI8avsEpUf65ir5SBr8c/HDCnj85IuWy0aMDB/6zy+qaSrsQRlANu/sgGDhsGghmqDPzCt6d0GHuK/zlVht6dkdwsCSSchFfxiHIU31cmQyZPbkQ6CZpGiOnalR7tW9GRdakyVeIr2HC/XXymuoOntKgoBzCnak17iqNkFyh89eN8gXuN Alexi@Caledfwlch-20.local"
     shell: /bin/bash
@@ -154,12 +154,14 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDaV5psdRHeF7KrvTrTXXmdC4jUgyh91lmgGc9fSTan
     in_docker: yes
     in_r: yes
 
+  # temporary users
+
   - username: asmar
     name: Oliver Tušla
     ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCghYBNt8QUn0Lm9FXnSsY28SYvPcjLE3kLoe6p+Cjaca0v4W38ivIukvmkoV3/HQLPUhpOZAtO0xKOJaL5Y3KooAxXL4TSlHzmTJBRbhbGfSYevT1kV8scefCidIfLE6F4a4LjqrihMnYs3/Pbu2AJ6q+BHOAwXYI+RJY2lbF28s2S/kmnqzpORyGwAtxlIKaLHPn+QALlECee1QDHxvZwMPqBNHlgEY/yITvh5fe2jLORMD8vwICw6XUWkXUBDs87iXw9044u+LyCD93HzJnTrXb8a7ANR1e7jGbOEz8nbGPwy7iewBzGEyLnKlayLo7o56rycw/O0DnbeWURKqGLq/wyHwdix9G/XIgilrc0UJwXc+UaJdru5PcUaB5E6poZsvPSO4wCBu6VZ4P1zUflQKHAIgkkZAqSPkI2/sQs4HKOP/jbjsnzmXPmzwA5B7WWhNbO7ahb0ZYoEPLGk4g980TcCvID2uIHo2JrU2HL4yx91w0ioCd5BQIB8fOKKRG73T15LWXzf7eQHqWiXQty4wMQE5NDhwHKE5ogtPaG3zs7IFNXSVQGCD/VtsAjCOWMab/10PWPYhb49SsoHQQIonkJcoQZeZB2N9HNhDjCcMOkQN2tVsH2Ktc5mWjhTrLrbZYVpKVJqVNAmiwh0BYXKJexI27qZFd02y+1YAzKgQ== oliver.tusla@seznam.cz"
     shell: /bin/bash
-
-  # temporary users
+    in_docker: yes
+    in_r: yes
 
   # Tobias and Malin - on the gateway and on dejavuii
 
