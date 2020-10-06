@@ -90,7 +90,7 @@ all_users:
   - username: alexi
 #    uid: 1115
     name: Alexi Turcotte
-    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8Y9KDoHlMBllYh62c6XuO10263PtwptN+E2arlmwyVX2iBU/3h7JAYalP0eZCLNIvLfWbtUiD2uS9iy8RylJ6TQNCOjDltRllgiwBQ1ARwa6Nw8UnFOok87GLjrOJeCBRd80LhuM2uWiZMaGnrVdFxhjadiRnwLIdmVryI8avsEpUf65ir5SBr8c/HDCnj85IuWy0aMDB/6zy+qaSrsQRlANu/sgGDhsGghmqDPzCt6d0GHuK/zlVht6dkdwsCSSchFfxiHIU31cmQyZPbkQ6CZpGiOnalR7tW9GRdakyVeIr2HC/XXymuoOntKgoBzCnak17iqNkFyh89eN8gXuN Alexi@Caledfwlch-20.local"
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDDBMcEYByMlwK9WDA77QaLPDiMy0mciAzXRdUGOEBSV5D/4DBVYDCeWechCqhBIN8AXb2Pp+G30BsnZdwEsBBqE18NO6EEJAhHuAO4C8MFwhJA/AnoLmrkIYfX6j8EsH7Xw8mpFiKOeePRBaoZAIR1z6QptZUqhSdi2i6NmQFVm5szIqHVhWx3McZR/LpYQ21DAoCbhU/eV6F2JUVJkhqsuEBU6VpFnf/THBUI2L0hayWNp0Jy1OqbTFV6Fa9WE2sIVuRBqRfAYkuvvzHZloKwxcaCEz6iso802H90O4WBFk7DN6DF/eSoeiFssyYODy67yJ1zftDE2qn7LGEwMCdpcqyD2CjwOtFcmsmvUafvHiSc+cKNpRjBp61R3nPvDLnB0e5PyW/4xWae7K1raqXLDggcQxoJA7Bqq7gK+MPgn+6bRECqj2/R1trFegfbFytrIsjyfzzBlZr8ZVFjXkpwXMe4PNrl23m6voYIJLDf+DoAy5CfnFoTbtAXAxQxD50= alexi@DESKTOP-007H675"
     shell: /bin/bash
     in_docker: yes
     in_r: yes
