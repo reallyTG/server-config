@@ -4,34 +4,35 @@
 {%- for item in groups['all'] %}
 {%- set short_name = item.split('.') %}
 
-
 {%- if SUFFIX is defined %}
-
-Host {{ item }}{{ SUFFIX }}
-
+{%- set hostname = item + SUFFIX %}
 {%- else %}
-
-Host {{ item }}
-
+{%- set hostname = item %}
 {%- endif %}
 
+{%- if PROXY is defined %}
+{%- set hostnames = [ hostname, hostvars[item]['ansible_host'] ] %}
+{%- else %}
+{%- set hostnames = [ hostname ] %}
+{%- endif %}
+
+{%- for host in hostnames %}
+
+Host {{ host }}
     Hostname {{ hostvars[item]['ansible_host'] }}
-    
+
 {%- if USER is defined %}
 
     User {{ USER }}
-    
+
 {%- endif %}
 
 {%- if PROXY is defined %}
 
     ProxyJump 147.32.233.132
-    
-{%- endif %}
 
+{%- endif %}
 
 {%- endfor %}
 
-
-
-
+{%- endfor %}
