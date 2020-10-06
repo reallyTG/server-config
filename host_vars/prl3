@@ -11,6 +11,7 @@ users:
 admin:
   - aviral
   - krikava
+  - pdonatbo
 
 host_packages:
   - sqlite3
